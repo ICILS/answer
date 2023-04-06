@@ -9,7 +9,7 @@ x-uffizzi:
 services:
 
   answer:
-    image: "${ANSWER_IMAGE}"
+    image: answerdev/answer:latest
     environment:
       - AUTO_INSTALL=true
       - DB_TYPE=mysql
